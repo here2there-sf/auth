@@ -6,7 +6,7 @@ First, ensure you have node and mongo installed on your system.
 
 ```sh
 # Clone repo
-git clone https://github.com/ben-sooryen/learn2018-be.git
+git clone https://github.com/here2there-sf/auth.git
 
 # Install dependencies
 npm install
@@ -15,7 +15,7 @@ npm install
 npm start
 
 # Try it!
-curl -H "Content-Type: application/json" -X POST -d '{"username":"jamesdean", "email": "example@gmail.com", "password":"password1"}' http://localhost:8080/users
+curl -H "Content-Type: application/json" -X POST -d '{"username":"user1", "email": "example@gmail.com", "password":"password1"}' http://localhost:8080/user
 ```
 
 ## NPM Scripts
