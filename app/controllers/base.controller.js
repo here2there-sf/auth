@@ -1,0 +1,13 @@
+class BaseController {
+  static filterParams(params, whitelist) {
+    const filtered = {};
+    for (const key in params) {
+      if (whitelist.indexOf(key) > -1) {
+        filtered[key] = params[key];
+      }
+    }
+    return filtered;
+  }
+}
+
+export default BaseController;
