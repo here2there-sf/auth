@@ -15,6 +15,9 @@ routes.get('/user', authenticate, UsersController.fetch);
 routes.put('/user', authenticate, UsersController.update);
 routes.delete('/user', authenticate, UsersController.delete);
 
+// loader io
+routes.get('/loaderio-d8963c94d78184b10ec466e330f21e4f/', UsersController.loadTest);
+
 routes.use(errorHandler);
 
 export default routes;

@@ -62,7 +62,11 @@ class UsersController extends BaseController {
     } catch(err) {
       next(err);
     }
-  }
+  };
+
+  loadTest = async (req, res, next) => {
+    return res.send('loaderio-d8963c94d78184b10ec466e330f21e4f');
+  };
 }
 
 export default new UsersController();
