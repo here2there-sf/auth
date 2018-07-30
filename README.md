@@ -1,5 +1,5 @@
 # Here2There - Auth Microservice
-[![Build Status](https://travis-ci.org/here2there-sf/auth.svg?branch=master)](https://travis-ci.org/here2there-sf/auth)
+[![Build Status](https://travis-ci.org/here2there-sf/auth.svg?branch=cit)](https://travis-ci.org/here2there-sf/auth)
 
 ## Getting Started
 First, ensure you have node and mongo installed on your system.
